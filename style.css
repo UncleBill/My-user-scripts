@@ -1,0 +1,10 @@
+.hide-read-item .sortable .dr-list-item:not(.dr-label-has-unread):not(.dr-feed-list-folder):not(.dr-feed-selected){
+    display: none;
+    background: blue !important;
+}
+.hide-read-item .dr-list-item.dr-feed-list-folder[data-folder-expanded=true]{
+    height: auto !important;
+}
+#read-nav #hide-control{
+    float: left;
+}

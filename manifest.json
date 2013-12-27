@@ -1,0 +1,20 @@
+{
+    "name": "My user-scripts",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "My user-scripts",
+    "content_scripts": [
+        {
+        "matches": [
+            "http://digg.com/reader",
+            "http://digg.com/reader/*"
+        ],
+        "css": [
+            "style.css"
+        ],
+        "js": [
+            "script.js"
+        ]
+    }
+    ]
+}
