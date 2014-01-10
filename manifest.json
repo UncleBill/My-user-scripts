@@ -15,6 +15,10 @@
         "js": [
             "script.js"
         ]
+    },
+    {
+        "matches":[ "*://news.ycombinator.com/*" ],
+        "js": ["HN.user.js"]
     }
     ]
 }
